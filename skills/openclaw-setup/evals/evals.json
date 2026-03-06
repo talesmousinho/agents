@@ -1,0 +1,23 @@
+{
+  "skill_name": "openclaw-setup",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Setup OpenClaw from scratch, including repairing any configuration issues, setting up the coding profile, and installing core dependencies (rg, ffmpeg, tmux).",
+      "expected_output": "OpenClaw doctor run, repair applied, profile set to 'coding', brew dependencies installed.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Configure OpenClaw for remote access using Tailscale. Ensure it's in 'serve' mode and the dashboard is accessible via HTTPS.",
+      "expected_output": "Tailscale configured for 'serve', gateway restarted, 'tailscale serve status' verified.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Verify the Discord channel status and enable remote access for my iPhone at 'iphone-183.tailnet.ts.net' (IP 100.103.0.69).",
+      "expected_output": "Discord status checked, allowedOrigins updated with iPhone hostname/IP, gateway restarted.",
+      "files": []
+    }
+  ]
+}
